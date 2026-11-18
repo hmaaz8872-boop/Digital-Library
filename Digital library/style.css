@@ -1,0 +1,372 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    padding: 10px;
+    margin: 0%;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+}
+
+.logo{
+    color: white;
+    margin-left: 50px;
+}
+
+.logo span{
+    color: plum;
+}
+
+nav a{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+nav a:hover{
+    color: plum;
+}
+
+nav button{
+    margin-left: 50px;
+    gap: 10px;
+    height: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: plum;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav button:hover{
+    background-color: blueviolet;
+}
+
+.hero-section{
+    background-image: url("images/Lavender Learning Book Banner.png");
+    width: 100%;
+    height: 500px;
+    margin-top: 0%;
+}
+
+.hero-section h2{
+   font-size: 50px;
+    margin-left: 80px;
+}
+
+.hero-section h1{
+     margin-left: 80px;
+     margin-top: 5px;
+     font-size: 50px;
+}
+
+.hero-section h1 span{
+    color: plum;
+}
+
+.hero-section p{
+     margin-left: 80px;
+     margin-top: 5px;
+     font-size: 30px;
+}
+
+.hero-section input{
+     margin-left: 80px;
+     margin-top: 30px;
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.hero-section button{
+     padding: 10px;
+     border-radius: 10px;
+     background-color: black;
+     color: white;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero-section button:hover{
+    background-color: plum;
+    color: black;
+}
+
+.cards{
+    display: flex;
+    margin-left: 25%;
+    gap: 20px;
+    margin-top: 5px;
+}
+
+.main-section h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.main-section h2 span{
+    color: purple;
+}
+
+.card-1{
+    display: flex;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.card-2{
+    display: flex;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.card-3{
+    display: flex;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.card-4{
+    display: flex;
+    border: 5px solid black;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Popular Books Section */
+
+.popular-books {
+    padding: 30px 4%;
+    background-color: #ffffff;
+}
+
+
+/* Section Heading */
+
+.popular-books h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #20104f;
+    margin-bottom: 25px;
+}
+
+
+/* Books Container */
+
+.books-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+/* Book Card */
+
+.book-card {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 15px;
+
+    background-color: white;
+
+    border: 1px solid #eeeeee;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+
+/* Book Image */
+
+.book-card img {
+    width: 110px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+/* Book Information */
+
+.book-info h3 {
+    font-size: 16px;
+    color: #20104f;
+    margin-bottom: 5px;
+}
+
+
+/* Author */
+
+.book-info .author {
+    color: #6d28d9;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+/* Description */
+
+.book-info p {
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+
+/* Read More Button */
+
+.book-info button {
+    background-color: #6d28d9;
+    color: white;
+
+    border: none;
+
+    padding: 9px 15px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+
+/* Button Hover */
+
+.book-info button:hover {
+    background-color: #4c1d95;
+}
+
+
+/* Card Hover */
+
+.book-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* Footer */
+
+footer {
+    background-color: #20104f;
+    color: white;
+    padding: 35px 5%;
+    margin-top: 30px;
+}
+
+
+/* Footer Container */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 25px;
+}
+
+
+/* Footer Boxes */
+
+.footer-box {
+    width: 25%;
+}
+
+
+/* Logo */
+
+.footer-box h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.footer-box h2 span {
+    color: #8b5cf6;
+}
+
+
+/* Headings */
+
+.footer-box h3 {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+
+/* Paragraph */
+
+.footer-box p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #e0d9f5;
+}
+
+
+/* Links */
+
+.footer-box a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+
+.footer-box a:hover {
+    color: #a78bfa;
+}
+
+
+/* Email Input */
+
+.footer-box input {
+    padding: 12px;
+    width: 180px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 12px;
+    outline: none;
+}
+
+
+/* Subscribe Button */
+
+.footer-box button {
+    padding: 12px 17px;
+    background-color: #6d28d9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.footer-box button:hover {
+    background-color: #8b5cf6;
+}
+
+
+/* Copyright */
+
+.copyright {
+    border-top: 1px solid #75649e;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 10px;
+}
+
+.copyright p {
+    font-size: 13px;
+    color: #e0d9f5;
+}
